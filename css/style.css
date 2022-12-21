@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+}
+
+section article {
+    background-color: #86D6BA;
+    width: 1000px;
+    height: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navegacion {
+    display: flex;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    background-color: #687AB2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #A3FAC6;
+}
+
+.familia-roboto {
+    font-weight: 500;
+}
+
+.texto-negrita {
+    color: black
+}
+
+.texto-general {
+    color: #181518
+}
+
+.img_chica {
+    size: 500px;
+}
+
+.fondo {
+    background-color: #86D6BA;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
