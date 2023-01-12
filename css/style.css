@@ -5,11 +5,6 @@
 }
 
 
-#grilla {
-    display: grid;
-    grid-template-columns: 25vh 50vh 25vh;
-}
-
 header {
     display: flex;
     background-color: #211F21;
@@ -76,6 +71,10 @@ a {
     border-radius: 10px;
 }
 
+#grilla {
+    display: grid;
+    grid-template-columns: 25vh 50vh 25vh;
+}
 a:hover {
     background-color: #A3FAC6;
 }
